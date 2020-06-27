@@ -1,6 +1,6 @@
 # OpenSpiel Project Template
 
-[![Build Status](https://travis-ci.com/dmorrill10/open_spiel-project-template.svg?token=&branch=master)](https://travis-ci.com/dmorrill10/open_spiel-project-template)
+[![Build Status](https://travis-ci.com/dmorrill10/open_spiel-project-template.svg?branch=master)](https://travis-ci.com/dmorrill10/open_spiel-project-template)
 
 A template for projects that wish to use [OpenSpiel](https://github.com/deepmind/open_spiel) as a third party library.
 
