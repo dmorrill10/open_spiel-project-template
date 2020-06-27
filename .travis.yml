@@ -1,0 +1,19 @@
+language: c
+
+git:
+  depth: 3
+
+matrix:
+  include:
+  - os: linux
+    dist: bionic # Ubuntu 18.04.2 LTS released on 26 April 2018
+  - os: linux
+    dist: fedora
+  - os: osx
+    osx_image: xcode10.3  # macOS 10.14 (Mojave), release on March 25, 2019.
+
+script:
+  - make build.Release/Makefile
+  - cd build.Release
+  - make
+  - ctest

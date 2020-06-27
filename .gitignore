@@ -1,0 +1,28 @@
+# C extensions
+*.so
+
+# OSX specific
+.DS_Store
+
+# Build products
+build
+build*/
+
+# External git modules
+src/open_spiel
+
+# IDE
+.idea/
+
+*.gen.*
+saved_results/
+manifest.db
+*.out
+tmp/
+
+# Singularity images
+*.sif
+
+# Clangd
+.clangd
+compile_commands.json
